@@ -12,9 +12,14 @@
 ### [Node]
 150mb 파일을 5mb 단위로 분할하여 하나의 임시파일을 생성하고 임시파일에 5mb 단위로 append함
 
+
 #### 파일을 분할하고 인덱스를 이용하여 상태값을 변경하면서 서버와 통신함
 #### React axios 통신 -> Spring , Node(express)
 #### Spring은 Content-Type multipart/form-data
 #### Node는 Content-Type application/octet-stream
 #### Node는 multipart/form-data으로 보내려면 Multer를 이용하면됨
 React 최적화된 렌더링은 나중에 ....
+
+### 결과 화면 
+![chrome-capture-2023-8-7](https://github.com/kimhankyeol/MultiFileChunkUpload/assets/41567215/4e057cd0-3284-4a9d-bf89-f3415d01c7d9)
+![2](https://github.com/kimhankyeol/MultiFileChunkUpload/assets/41567215/77d0b264-ed83-410c-9339-c15c70b0bfb2)
